@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         progressBar?.isVisible = false
 
         globalScopeStart()
-
+//qwew
         switchBoolean!!.setOnCheckedChangeListener { buttonView, isChecked ->
             if (isChecked){
                 textViewResultat!!.text = ""
